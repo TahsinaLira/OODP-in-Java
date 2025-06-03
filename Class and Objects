@@ -1,1 +1,57 @@
+Class is a blueprint or a template of an object where the object uses that template to tell how it looks (configuration) and what it can do.
+variables/ attributes are those things that you use to describe the information of an object
+what an object can do, (the actions) are called methods
+So an object is something that has variables(state) and methodes(Behaviors)
 
+Example:
+Lets say, there is a Phone. All the phones have: brand, color, Ram size, Battery level etc. And they can do things like making calls, taking pictures, sending messages....
+so if we want to describe a phone in java, we can create a class like:
+
+
+class Phone{
+  String brand,color;
+  int RAM, Battery;
+  void call(){
+  System.out.println("Calling...");
+  }
+  void takePictures(){
+  System.out.println("Taking Pictures...");
+  }
+  void display(){
+  System.out.println("Brand"+brand);
+  System.out.println("color"+color);
+  System.out.println("RAM:"+RAM);
+  System.out.println("Battery Level:"+Battery);
+}
+}
+
+
+Here we create the template for phone, it doesn't mean it beacome a real phone. Its just a blueprint. If we want to make it real we have to create an object that will 
+configure all the elements of Phone class. Thus, a class is a logical construct. An object has physical reality.
+
+public class Main{
+       public static void main(String[] args){
+Phone obj1=new Phone();  //this means new Phone() creates the new object of phone class which name is obj1 and points to that object
+  obj1.brand="Iphone";
+  obj1.color="Purple"
+  obj1.RAM=216;
+  obj1.Battery=80;
+
+  obj1.call();
+  obj1.takePictures();
+}}
+
+
+Objects are characterized by three essential properties: state, identity, and behavior.
+1.The state of an object is a value from its data type. 
+2.The identity of an object distinguishes one object from another. Which means one object is unique from another. It is useful to think of an object’s identity 
+as the place where its value is stored in memory. Because every memory address is different for each object.
+3.The behavior is the effect or result you get when you apply operations on the data - like calling methods or performing calculations.
+
+
+if we recap the whole thing in simple, 
+* A class is like a plan 
+* An object is the real thing made from that plan
+* A class has 
+              Variables ~ to hold the informations(like brand, color)
+              Methods   ~ to do things(Like call, take photo)
