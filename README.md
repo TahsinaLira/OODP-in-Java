@@ -1,2 +1,2 @@
 # OODP
-You can find the OODP concept here including basic staffs.
+Here you can find the Object-Oriented Design and Programming concepts in java and including the basics.
