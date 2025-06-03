@@ -1,0 +1,20 @@
+A method is a block of code that does some actions.
+You can use it again and again , instead of writing the same code many times.
+
+Parameter:
+A parameter is like an empty box you give to the method. The method will use whatever value you senf into that box.
+Example Code:
+void greet(String name){
+  System.out.println("Hello "+name);
+}
+here, [String name] is the parameter. It tells the method: I need a name to say hello. From the main method you have to 
+invoke the greet() method with a name like:
+
+  greet("Lira");
+
+here "Lira" is the argument and you are passing agrument into the parameter. 
+
+Argument:
+So, argument is the value that you give while calling the method.
+
+Output will be Hello Lira.
