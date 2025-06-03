@@ -1,0 +1,10 @@
+Access Modifiers in java are keywords that control who can see or use your variables, methods, classes.
+They are like doors with different locks where you decide to how open or private your code should be.
+
+We need Access Modifiers to protect important data, hide things that should not be used directly.
+There are 4 types of Access Modifiers:
+1. Public: Can be accessed from anywhere in the code
+2. private: Only inside the same class
+3. protected: same package and child classes
+4. default (No keyword): same package only
+
