@@ -1,0 +1,19 @@
+Method Overloading: It happens when two methods have same name but different parameters in the same class.
+
+Imagine you have a calculator, sometimes you add 2 numbers, sometime you add 3 numbers.
+So, even though the action is the same, the number of inputs are different.
+Example Code:
+class Calculator{
+  void add(int a, int b){
+  System.out.println(a+b);
+  }
+ void add(int a, int b, int c){
+  System.out.println(a+b+c);
+  }
+}
+
+public class Main{
+    Calculator c= new Calculator();
+    c.add(2,10);
+    c.add(5,4,6);
+}
