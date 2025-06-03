@@ -1,0 +1,23 @@
+Method Overriding: 
+A child class gives its own version of a method that already exists in the parent class. 
+
+Example code: 
+
+class Animal{
+  void sound(){
+  System.out.println("Animal makes a sound");
+}
+}
+
+class Dog extends Animal{
+void sound(){
+  System.out.println("Dog makes a sound");
+}
+}
+
+public class Main{
+public static void main(Strings [] args){
+Dog d= new Dog();
+d.sound();
+}
+}
