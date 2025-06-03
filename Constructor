@@ -1,0 +1,51 @@
+A constructor is a special method that helps you to build an object. Its like a builder who sets up the object when you first
+create it. It makes the objects more flexible to handle.
+Example Code:
+class Phone{
+    String Brand,color;
+    int RAM, Battery;
+  Phone(String Brand){
+        this.Brand=Brand;
+    }
+    void call(){
+        System.out.println("Calling..");
+    }
+    void takePhotos(){
+        System.out.println("Taking Photos..");
+    }
+    void displayFeatures(){
+        System.out.println("Phone Brand: "+Brand);
+       }
+}
+public class Class2{
+    public static void main(String[] args) {
+       
+   Phone p1=new Phone("Iphn");// here the constructor is used. we can directly assign it while creating object.
+   p1.displayFeatures();
+   p1.call();
+   p1.takePhotos();
+    }
+}
+
+now lets break down the this keyword,
+this keyword means "this current object"
+in the example,
+Phone(String Brand){
+        this.Brand=Brand;
+    }
+this.Brand is the "Brand" variable of this class(Phone) 
+Brand is the parameter of the constructor.
+simply it tells that this.Brand is pointing towards the attribute "Brand" of this Phone class,
+which is equal to the parameter of the Phone constructor. It helps us to map the object while creating.
+
+Now, there is no necessity of naming the parameters and variables same. You can name it differently, if so you don't need to use this
+keyword. But the purpose of coding is to make it simple and understable to others. If you use different name it might work perfectly
+but it will be difficult for others to understand your code. So, it is a good practice to name them same.
+And here comes the necessity of this keyword. If you name the constructor's parameter and class variable same, it is required to use 
+this keyword, otherwise java will get confused and give you wrong output. 
+
+When we create an object, java gives us a default constructor explicitly, thus if you don't make a constructor it will run perfectly.
+Now, you may have a question that, if java itself provides a built-in constructor implicitly then why we need to create a constructor
+explicitly?
+~~ Because the default constructor does not take any values and it is not customizable. But if we make our own contructor it can take
+inputs, sets the value immediately while creating the object and has the full control of yours.
