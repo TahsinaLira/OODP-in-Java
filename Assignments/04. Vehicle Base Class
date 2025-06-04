@@ -1,0 +1,8 @@
+* Create a class Vehicle
+    ~ Protected variable: speed
+    ~ Method: startEngine() --> prints "Engine started"
+    ~ Method: stopEngine() --> prints "Engine stopped"
+* Create Car class that extends Vehicle
+    ~ Override Method:  startEngine() --> prints "Car Engine started"
+    ~ Method: honk() --> prints "Car honks: Beep Beep!"
+* Create objects and call the methods
