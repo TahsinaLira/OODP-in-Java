@@ -1,0 +1,11 @@
+* Create class FoodOrder with: 
+    ~ Variables: itemName, quantity, size
+
+* Use constructor to set values
+
+* Overload method:
+    ~ placeOrder(String itemName)
+    ~ placeOrder(String itemName, int quantity)
+    ~ placeOrder(String itemName, int quantity, String size)
+
+* Display the Order Summary
