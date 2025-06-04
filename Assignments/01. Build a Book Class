@@ -1,0 +1,10 @@
+*Create a class Book with:
+   ~ title, author, price as private variables
+
+* Use constructor overloading:  [Same as Method Overloading, Constructor is a special type of method]
+
+    ~ One constructor with title and author
+    ~ Another constructor with title, author, and price
+
+* Add a method showDetails() to print book info
+
