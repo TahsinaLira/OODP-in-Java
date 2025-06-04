@@ -1,0 +1,14 @@
+* Design a class Superhero 
+       ~ Attributes → name, powerLevel, ability
+
+* Use constructor to set the data
+
+* Overload method usePower():
+       ~ One with no parameters → Prints a message (A is using x ability)
+       ~ One with a parameter String enemy → prints a message (who attack on enemy with which ability)
+
+* Create a subclass (Child Class) FlyingHero that overrides usePower() that says this hero flies and
+then uses the ability
+
+
+
