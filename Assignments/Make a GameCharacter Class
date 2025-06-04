@@ -1,0 +1,11 @@
+* Create a parent class GameCharacter:
+     ~ Variables: name, power
+     ~ Method: attack() → prints "Character attacks!"
+
+* Create a subclass Warrior:
+      ~ Override attack() → prints "Warrior slashes with sword!"
+
+* Create a subclass Archer:
+      ~ Override attack() → prints "Archer shoots an arrow!"
+
+
