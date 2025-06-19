@@ -1,0 +1,29 @@
+4 pillars of OODP are....
+
+1. Abstraction
+2. Inheritance
+3. Encapsulation
+4. Polymorphism
+
+
+~ ABSTRACTION: * Abstraction is a technique of providing only the essential
+                 details to the user by hiding the unnecessary details of an entity.
+               * It provide a simple interface to a user without asking for the complex
+                 details to perform an action.
+               * In simple words, giving the user the ability to drive the car without
+                 requiring to understand the details of 'how does the engine work'.
+
+~ INHERITANCE: * When one class acquires all the properties and behaviors of a parent class.
+               * This is known as child-parent relationship, where the child inherits the
+                 properties of its parent.
+               * It allows us to increase the reusability and reduce the duplication of code.
+
+~ ENCAPSULATION: * Encapsulation is a technique to restrict a user from directly modifing the data 
+                   of a class in order to maintain the security of data.
+                 * We restrict the data by switching the access modifier into private, which means
+                   the data can only be accessed within the same class.
+
+~POLYMORPHISM: * Polymorphism means the same thing performs differntly depending on the situation.
+               * There are two types of polymorphism---
+                  ~ Overloading (Compile time polymorphism)
+                  ~ Overriding (Run time polymorphism)
